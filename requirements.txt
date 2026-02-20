@@ -1,0 +1,10 @@
+fastapi==0.111.1               # framework web modern pentru API
+uvicorn[standard]==0.23.2      # server ASGI, live reload
+sqlalchemy==2.0.22             # ORM pentru PostgreSQL
+psycopg2-binary==2.9.9         # driver PostgreSQL
+python-jose==3.3.0             # JWT encoding/decoding
+bcrypt==4.0.1                  # hashing parole
+python-dotenv==1.0.0           # pentru .env (configuri sensibile)
+pydantic==2.3.0                # validare request/response
+alembic==1.11.1                # optional, pentru migrații DB
+email-validator==2.2.0        # pentru EmailStr
